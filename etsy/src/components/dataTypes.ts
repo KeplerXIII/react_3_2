@@ -15,3 +15,8 @@ export type Currency = {
     USD: string,
     [key: string]: string
 }
+
+
+export type propsFromList = {
+    items: Item[]
+}

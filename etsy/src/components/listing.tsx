@@ -1,5 +1,5 @@
 import React from 'react';
-import {Item, Currency} from './dataTypes'
+import {Currency, propsFromList} from './dataTypes'
 import { Level } from './level';
 
 
@@ -10,7 +10,7 @@ const currency: Currency = {
     USD: '$'
 }
 
-export function Listing({ items }: { items: Item[] }): React.ReactNode {
+export const Listing:React.FC<propsFromList> = ({items }): React.ReactNode => {
     return (
         <div className="item-list">
             {items.map((obj) =>
