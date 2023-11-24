@@ -10,7 +10,7 @@ const currency: Currency = {
     USD: '$'
 }
 
-export const Listing:React.FC<propsFromList> = ({items }): React.ReactNode => {
+export const Listing:React.FC<propsFromList> = ({ items }): React.ReactNode => {
     return (
         <div className="item-list">
             {items.map((obj) =>
