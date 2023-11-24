@@ -1342,7 +1342,7 @@ export const dataList = [
         "last_modified_tsz": 1563354938,
         "price": "30.00",
         "currency_code": "USD",
-        "quantity": 3,
+        "quantity": 15,
         "sku": [],
         "tags": [
             "t-shirt",
